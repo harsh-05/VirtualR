@@ -10,7 +10,7 @@ export function Navbar() {
             <img className="h-10 w-10 mr-1" src={logo} alt="logo" />
             <span className="text-xl tracking-tight">VirtualR</span>
           </div>
-          <ul className="hidden lg:flex gap-5">
+          <ul className="hidden lg:flex gap-10 ">
             {navItems.map((item: { label: string; href: string }) => (
               <li>
                 <a className="hover:border-b" href={item.href}>

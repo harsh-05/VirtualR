@@ -7,7 +7,8 @@ export function HeroSection() {
           {" "}
           for developers
         </span>
-      </div>
+          </div>
+          <p className="max-w-4xl mt-10 text-center text-xs md:text-sm lg:text-base text-neutral-500">Empowe your creativity and bring your VR app ideas to life with our intuitive development tools. Get started today and turn your imagination into immersive reality.</p>
     </div>
   );
 }
