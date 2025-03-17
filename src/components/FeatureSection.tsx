@@ -3,7 +3,7 @@ import { features } from "../localData";
 export default function FeatureSection() {
   return (
     <div className="flex flex-col items-center border-b border-neutral-800 py-5">
-      <h4 className="mt-10 mb-20 text-center text-xs md:text-base bg-gradient-to-r from-orange-500 to-orange-800 bg-clip-text text-transparent uppercase">
+      <h4 className="mb-10 md:mt-10 md:mb-20 text-center text-xs md:text-base bg-gradient-to-r from-orange-500 to-orange-800 bg-clip-text text-transparent uppercase">
         Feature
       </h4>
       <h1 className=" text-4xl md:text-5xl lg:text-7xl text-center tracking-wide">
