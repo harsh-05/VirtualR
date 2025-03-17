@@ -1,7 +1,7 @@
 import logo from "../assets/logo.png";
 import { navItems } from "../localData";
 
-export function Navbar() {
+export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg  border-b border-neutral-700/80 ">
       <div className="container px-8 mx-auto relative text-sm">

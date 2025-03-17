@@ -1,9 +1,9 @@
 import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
 
-export function HeroSection() {
+export default function HeroSection() {
   return (
-    <div className="max-w-7xl mx-auto flex flex-col items-center mt-6 lg:mt-20">
+    <div className="flex flex-col items-center mt-6 lg:mt-20 ">
       <div className="text-4xl sm:text-7xl lg:text-8xl text-center tracking-wider">
         VirtualR build tools
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 bg-clip-text text-transparent">
@@ -27,17 +27,17 @@ export function HeroSection() {
           Documentation
         </a>
       </div>
-      <div className="flex justify-center gap-2 my-10">
+      <div className="flex flex-col items-center md:flex-row md:justify-center gap-2 my-10 ">
         <video
           src={video1}
-          className="w-1/2 border border-orange-500 rounded-lg"
+          className="w-1/2 border border-orange-700 rounded-lg  my-3 shadow-orange-500"
           autoPlay
           muted
           loop
         ></video>
         <video
           src={video2}
-          className="w-1/2 border border-orange-500 rounded-lg"
+          className="w-1/2 border border-orange-700 rounded-lg  my-3 shadow-orange-500"
           autoPlay
           muted
           loop
