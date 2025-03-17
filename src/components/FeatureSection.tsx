@@ -1,4 +1,3 @@
-import { ReactElement } from "react";
 import { features } from "../localData";
 
 export default function FeatureSection() {
