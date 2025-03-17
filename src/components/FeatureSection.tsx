@@ -38,14 +38,14 @@ function Features({
   description: string;
 }) {
   return (
-    <div className="w-full sm:w-1/2 lg:w-1/3 ">
-      <div className="flex">
-        <div className="flex items-center justify-center flex-shrink-0 h-10 w-10 md:h-12 md:w-12 rounded-full text-orange-700 bg-neutral-800 mx-4">
+    <div className="w-full sm:w-1/2 lg:w-1/3 p-5">
+      <div className="flex ">
+        <div className="flex items-center justify-center flex-shrink-0 h-10 w-10 md:h-10 md:w-10 rounded-full text-orange-700 bg-neutral-800 mx-4">
           <Icon />
         </div>
         <div>
-          <h1>{text}</h1>
-          <p>{description}</p>
+          <h5 className="mb-5 mt-1 text-xl ">{text}</h5>
+          <p className="text-md text-neutral-500 mb-20">{description}</p>
         </div>
       </div>
     </div>
