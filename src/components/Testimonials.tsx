@@ -22,7 +22,7 @@ export default function Testimonials() {
 }
 
 function TestiCard({user, company, image, text} : {user: string, company:string, image:string, text:string}) { 
-    return <div className="bg-neutral-800 p-6 flex flex-col justify-between rounded-sm w-full">
+    return <div className="bg-neutral-800 p-6 flex flex-col justify-between rounded-md shadow-neutral-700 shadow-md hover:shadow-none w-full">
         <p className="mb-5 text-sm font-thin tracking-wide">{text}</p>
         <div className="flex items-center">
             <img src={image} alt="user's image" className="rounded-full w-10 h-10 mr-5"/>
